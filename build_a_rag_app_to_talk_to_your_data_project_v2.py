@@ -10,15 +10,15 @@ Original file is located at
 """
 
 # Install necessary packages
-!pip install weaviate-client langchain openai unstructured "unstructured[pdf]" -U langchain-community pymupdf -U langchain-openai pytesseract pillow transformers torch torchvision torchaudio pydub SpeechRecognition
+pip install weaviate-client langchain openai unstructured "unstructured[pdf]" -U langchain-community pymupdf -U langchain-openai pytesseract pillow transformers torch torchvision torchaudio pydub SpeechRecognition
 
-!sudo apt-get update && sudo apt-get install -y tesseract-ocr ffmpeg
+sudo apt-get update && sudo apt-get install -y tesseract-ocr ffmpeg
 
-!pip install youtube-transcript-api
+pip install youtube-transcript-api
 
-!pip install -U langchain-openai
+pip install -U langchain-openai
 
-!pip install pytube
+pip install pytube
 
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
